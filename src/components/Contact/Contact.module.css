@@ -1,0 +1,32 @@
+.container{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px teal;
+}
+.text{
+    font-size: 20px;
+}
+.btn{
+    margin-left: auto;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 2px 4px 4px teal;
+    border: teal;
+}
+
+.container:active, .container:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        margin: auto;
+    }
+}

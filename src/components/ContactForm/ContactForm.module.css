@@ -1,0 +1,31 @@
+.container{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: 1px solid teal;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 4px 4px teal;
+    font-size: 20px;
+}
+.error{
+    color: orangered;
+}
+.btn{
+    background-color: teal;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    box-shadow: 2px 4px 4px teal;
+}
+@media screen and (min-width: 768px) {
+    .container{
+        width: 500px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,14 @@
+li{
+    list-style-type: none;
+    display: flex;
+}
+p{
+    margin:0;
+    margin-bottom: 10px;
+}
+ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
