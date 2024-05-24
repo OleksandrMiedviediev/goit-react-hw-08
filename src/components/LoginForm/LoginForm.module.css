@@ -1,0 +1,32 @@
+.form {
+    width: 320px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+.input {
+    width: 300px;
+    height: 30px;
+    background-color: teal;
+    border-radius: 10px;
+    padding-left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.btn {
+    margin-left: auto;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    border: teal;
+}
+
+.btn:active,
+.btn:hover {
+    transform: scale(1.1);
+}

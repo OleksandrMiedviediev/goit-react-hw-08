@@ -20,7 +20,10 @@
     border: none;
     color: white;
     font-size: 20px;
-    box-shadow: 2px 4px 4px teal;
+}
+.btn:active,
+.btn:hover {
+    transform: scale(1.01);
 }
 @media screen and (min-width: 768px) {
     .container{

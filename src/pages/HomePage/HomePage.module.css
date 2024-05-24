@@ -1,0 +1,12 @@
+.title {
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    color: rgb(2, 111, 201);
+}
+
+.subtitle {
+    font-size: 24px;
+    text-align: center;
+    color: rgb(2, 0, 109);
+}

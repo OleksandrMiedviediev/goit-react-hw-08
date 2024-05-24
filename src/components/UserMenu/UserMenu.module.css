@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.username {
+    font-weight: 700;
+}
+.btn {
+    margin-left: auto;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    border: teal;
+}
+
+.btn:active,
+.btn:hover {
+    transform: scale(1.05);
+}

@@ -17,11 +17,11 @@
     color: white;
     border-radius: 10px;
     font-size: 20px;
-    box-shadow: 2px 4px 4px teal;
     border: teal;
 }
 
-.container:active, .container:hover{
+.container:active, .container:hover, .btn:active,
+.btn:hover{
     transform: scale(1.1);
 }
 
